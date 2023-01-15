@@ -73,7 +73,7 @@ class Blockchain: # Blockchain classı
 
 ## Creating a web App
 app = Flask(__name__) # Flask ile bir web uygulamsı oluşturduk
-app.config['JSONIFY_PRETTYPRINT_REGULAR'] = False
+app.config['JSONIFY_PRETTYPRINT_REGULAR'] = False 
 
 ## Creating a Blockchain
 blockchain = Blockchain() # Nesne oluşturarak blockchain yarattık
@@ -113,7 +113,7 @@ def is_valid():
 
 
 # Runnuing the app
-app.run(host= '0.0.0.0', port = 5000)
+app.run(host= '0.0.0.0', port = 5000) #yerel sunucuda  5000 portunda çalışıyor
 
 
 
